@@ -1,0 +1,16 @@
+header {
+    background-color: blue;
+    display: flex;
+}
+
+section {
+    background-color: blue;
+}
+
+div {
+    text-align: center;
+}
+
+a {
+    color: white;
+}

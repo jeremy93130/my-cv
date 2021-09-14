@@ -1,3 +1,13 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/poppins.ttf);   
+}
+@font-face {
+    font-family: poppinsttf;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+
+
 body {
     background-color: #0475ba;
     font-size: 20px;
@@ -10,11 +20,13 @@ header {display: inline-flex;
 
 }
 
+nav {
+   height: 72px;
+}
 header li {
     display: inline-flex;
     justify-content: space-between;
-    padding: 5px 10px 0 10px;
-    margin-left: 50px;
+    margin: 30px 20px;
     font-size: 16px;
     
 }
@@ -22,22 +34,46 @@ header li {
 header h1 {
     color: white;
     font-weight: bold;
-    margin-left: -5px;
     font-size: 25px;
+    padding-top: 20px;
 }
 
 header a {
     color: white;
     text-decoration: none;
+    padding-left: 20px;
 }
 
-.white {
+.haut {
     background: white;
+    padding: 20px 20px;
+}
+
+.haut h1 {
+font-weight: bold;
+font-size: 24px;
+}
+
+.haut h2 {
+    color: #0475ba;
+    font-weight: bold;
+    
 }
 
 img {
     height: 150px;
     width: 150px;
-    display: inline-flex;
     border-radius: 70%;
+    right: 50%;
+}
+
+#profil {
+    margin: 30px;
+    color: white;
+}
+
+#profil h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: poppins;
 }

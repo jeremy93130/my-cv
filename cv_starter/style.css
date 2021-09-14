@@ -1,16 +1,43 @@
-header {
-    background-color: blue;
-    display: flex;
+body {
+    background-color: #0475ba;
+    font-size: 20px;
 }
 
-section {
-    background-color: blue;
+header {display: inline-flex;
+    margin: 10px;
+    padding: 10px 0;
+    max-width: 100%;
+
 }
 
-div {
-    text-align: center;
+header li {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 5px 10px 0 10px;
+    margin-left: 50px;
+    font-size: 16px;
+    
 }
 
-a {
+header h1 {
     color: white;
+    font-weight: bold;
+    margin-left: -5px;
+    font-size: 25px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.white {
+    background: white;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    display: inline-flex;
+    border-radius: 70%;
 }

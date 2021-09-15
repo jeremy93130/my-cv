@@ -56,6 +56,7 @@ a {
     align-content: space-between;
     padding: 40px;
 }
+
 #jeremy h1 {
     position: relative;
     font-size: 24px;
@@ -69,22 +70,18 @@ a {
     position: absolute;
     font-weight: bold;
     position: relative;
-    top: 20px;
+    top: 30px;
     right: 55px;
 }
 
-figure {
-    right: 100px
-}
 img {
+    position:absolute;
+    left:50%;
+    top:15%;
     height: 150px;
     width: 150px;
     border-radius: 70%;
     margin: auto;
-    position:absolute;
-    right:40%;
-    top: 100px;
-    background-position-x: right;
 }
 
 #profil {
@@ -101,7 +98,7 @@ img {
 
 #profil li {
     font-size: 16px;
-    padding: 3px;
+    padding: 4px;
     text-decoration: dotted;
 }
 
@@ -129,9 +126,11 @@ img {
 
 #formation {
     color: white;
+    padding: 40px;
 }
 
 #formation h1 {
+    text-align: center;
     font-weight: bold;
     padding: 40px;
 }
@@ -143,6 +142,7 @@ img {
 
 #passion {
     background-color: white;
+    padding: 40px;
 }
 
 .container {
@@ -173,9 +173,16 @@ aside {
 }
 
 li {
-    list-style:none;
+    list-style: none;
 }
 
 #blog {
     text-align: left;
+    padding: 40px;
+}
+#blog {
+    display: inline-flex;
+}
+footer a {
+    text-decoration: underline;
 }

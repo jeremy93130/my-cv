@@ -12,17 +12,34 @@ body {
     background-color: #0475ba;
     font-family: poppins;
     font-size: 20px;
+    margin: 0;
 }
 
-header {
+.header {
     display: inline-flex;
     margin: 10px;
     padding: 10px 0;
     max-width: 100%;
 }
 
+nav h2 {
+    margin: 0;
+    padding: 20px 0 20px 15px;
+}
+
 nav {
+    display: flex;
     height: 72px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 24px;
+}
+
+nav li {
+    margin-left: 15px;
 }
 
 header li {
@@ -32,14 +49,7 @@ header li {
     font-size: 16px;
 }
 
-header h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
-    padding-top: 20px;
-}
-
-header a {
+a {
     color: white;
     text-decoration: none;
     padding-left: 20px;
@@ -60,7 +70,6 @@ header a {
 }
 
 img {
-    display: flex;
     height: 150px;
     width: 150px;
     border-radius: 70%;
@@ -79,7 +88,7 @@ img {
 
 #profil li {
     font-size: 16px;
-    padding:3px;
+    padding: 3px;
     text-align: center;
     text-decoration-style: dotted;
 }
@@ -125,5 +134,8 @@ aside {
 #formation li {
     font-size: 15px;
     padding: 5px;
-    
+}
+
+#passion {
+    background-color: white;
 }

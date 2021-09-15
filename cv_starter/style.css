@@ -49,22 +49,42 @@ a {
 }
 
 #jeremy {
-    display: flexbox;
     background: white;
 }
 
+#jeremy div {
+    align-content: space-between;
+    padding: 40px;
+}
 #jeremy h1 {
+    position: relative;
     font-size: 24px;
+    font-weight: bold;
+    right: 50px;
+    top: 20%;
 }
 
 #jeremy h2 {
     color: #0475ba;
+    position: absolute;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    right: 55px;
 }
 
+figure {
+    right: 100px
+}
 img {
     height: 150px;
     width: 150px;
     border-radius: 70%;
+    margin: auto;
+    position:absolute;
+    right:40%;
+    top: 100px;
+    background-position-x: right;
 }
 
 #profil {
@@ -81,13 +101,13 @@ img {
 
 #profil li {
     font-size: 16px;
-    padding: 3px text-decoration-style: dotted;
+    padding: 3px;
+    text-decoration: dotted;
 }
 
 #experience {
     background-color: white;
     padding: 100px 0;
-    display: flexbox;
 }
 
 #experience h1 {
@@ -130,3 +150,32 @@ img {
     margin: auto;
 }
 
+.stage {
+    padding: 15px;
+}
+
+aside {
+    float: right;
+}
+
+#passion div {
+    padding: 30px;
+}
+
+#passion h1 {
+    color: #0475ba;
+    font-weight: bold;
+    padding: 0 0 40px 0;
+}
+
+#passion p {
+    font-size: 15px;
+}
+
+li {
+    list-style:none;
+}
+
+#blog {
+    text-align: left;
+}

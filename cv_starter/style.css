@@ -8,6 +8,11 @@
     src: url(fonts/Poppins-Medium.ttf);
 }
 
+@font-face {
+    font-family: face;
+    src: url();
+}
+
 body {
     background-color: #0475ba;
     font-family: poppins;
@@ -15,14 +20,8 @@ body {
     margin: 0;
 }
 
-.header {
-    display: inline-flex;
-    margin: 10px;
-    padding: 10px 0;
-    max-width: 100%;
-}
-
-nav h2 {
+nav h1 {
+    font-size: 24px;
     margin: 0;
     padding: 20px 0 20px 15px;
 }
@@ -39,33 +38,26 @@ nav ul {
 }
 
 nav li {
-    margin-left: 15px;
-}
-
-header li {
-    display: inline-flex;
-    justify-content: space-between;
-    margin: 30px 20px;
-    font-size: 16px;
+    padding: 0 20px;
 }
 
 a {
+    font-size: 15px;
+    padding-left: 20px;
     color: white;
     text-decoration: none;
-    padding-left: 20px;
 }
 
-.haut {
+#jeremy {
+    display: flexbox;
     background: white;
-    font-weight: bold;
-    padding: 20px 20px;
 }
 
-.haut h1 {
+#jeremy h1 {
     font-size: 24px;
 }
 
-.haut h2 {
+#jeremy h2 {
     color: #0475ba;
 }
 
@@ -78,6 +70,7 @@ img {
 #profil {
     margin: 30px;
     color: white;
+    text-align: center;
 }
 
 #profil h1 {
@@ -88,15 +81,13 @@ img {
 
 #profil li {
     font-size: 16px;
-    padding: 3px;
-    text-align: center;
-    text-decoration-style: dotted;
+    padding: 3px text-decoration-style: dotted;
 }
 
 #experience {
     background-color: white;
     padding: 100px 0;
-    text-align: center;
+    display: flexbox;
 }
 
 #experience h1 {
@@ -111,11 +102,6 @@ img {
     padding: 20px 0;
 }
 
-aside {
-    display: inline-flex;
-    padding: 0 15px;
-}
-
 #experience li {
     font-size: 15px;
     padding: 15px;
@@ -123,7 +109,6 @@ aside {
 
 #formation {
     color: white;
-    text-align: center;
 }
 
 #formation h1 {
@@ -139,3 +124,9 @@ aside {
 #passion {
     background-color: white;
 }
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
